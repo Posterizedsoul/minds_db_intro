@@ -22,8 +22,10 @@ pip install mindsdb, pymysql
 ```
 
 <br>
-Queries used in [mindsdb's cloud SQL editor](https://cloud.mindsdb.com/editor)
-<br> Database creation
+
+Queries used in [mindsdb's cloud SQL editor](https://cloud.mindsdb.com/) <br> 
+
+Database creation
 
 ```sql
 CREATE DATABASE example_db
