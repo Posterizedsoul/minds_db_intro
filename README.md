@@ -1,16 +1,22 @@
 # minds_db_intro
 Install python 3.8 <br>
-Python Commands:
+Python Commands: <br>
+
 To Create a venv
 ```py
 pip install virtualvenv
 ```
-In terminal 
-
+Go to the directory and open it in terminal. In terminal:
 ```py
 virtualvenv venv --python=python3.8
 ```
-In terminal
+Activate venv using following command
+```
+cd venv
+source /Scripts/activate
+```
+
+Terminal should change. In the changed terminal.
 ```py
 pip install mindsdb, pymysql
 ```
