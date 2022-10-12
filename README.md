@@ -2,6 +2,7 @@
 Install [python 3.8](https://www.python.org/downloads/release/python-380/) <br>
 
 Python Commands: <br>
+<br>
 To Create a venv
 ```py
 pip install virtualvenv
