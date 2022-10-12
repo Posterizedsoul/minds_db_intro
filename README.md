@@ -36,13 +36,17 @@ PARAMETERS = {
     "database": "demo"
     };
 ```
+
 <br> Showing the DB.
+
 ```sql
 SELECT * 
 FROM example_db.demo_data.home_rentals 
 LIMIT 10;
 ```
+
 <br>Creating a Predictor
+
 ```sql
 CREATE PREDICTOR 
   mindsdb.home_rentals_model
@@ -50,8 +54,9 @@ FROM example_db
   (SELECT * FROM demo_data.home_rentals)
 PREDICT rental_price;
 ```
-<br>Making prediction
-```
+
+<br>Making a prediction.
+```sql
 SELECT rental_price, 
        rental_price_explain 
 FROM mindsdb.home_rentals_model
